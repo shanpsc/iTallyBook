@@ -1,0 +1,25 @@
+﻿@model List<iTallyBook.Models.ViewModels.IndexViewModel>
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-bordered table-hover">
+            <tr>
+                <th>#</th>
+                <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Type)</th>
+                <th>@Html.DisplayNameFor(model => model.FirstOrDefault().DataDate)</th>
+                <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Amount)</th>
+            </tr>
+            @{ int i = 1; }
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th>@(i++)</th>
+                    <th>@Html.DisplayFor(x => item.Type)</th>
+                    <th>@Html.DisplayFor(x => item.DataDate)</th>
+                    <th>@Html.DisplayFor(x => item.Amount)</th>
+                </tr>
+            }
+        </table>
+    </div>
+</div>
+
