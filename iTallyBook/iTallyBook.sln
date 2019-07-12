@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iTallyBook", "iTallyBook\iTallyBook.csproj", "{38EECB00-FD4B-4D2A-9DC5-7CF815A285DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38EECB00-FD4B-4D2A-9DC5-7CF815A285DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38EECB00-FD4B-4D2A-9DC5-7CF815A285DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38EECB00-FD4B-4D2A-9DC5-7CF815A285DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38EECB00-FD4B-4D2A-9DC5-7CF815A285DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2FD16CAC-CE05-4488-8979-D58005CC4B97}
+	EndGlobalSection
+EndGlobal
